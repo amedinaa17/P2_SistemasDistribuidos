@@ -76,8 +76,6 @@ public class Servidor {
 
                 try {
                     System.out.println("Imprimiendo archivo " + nombreArchivo + "...");
-                    // Simula la impresión del archivo
-                    Thread.sleep(2000); // Tiempo de impresión simulado
                     // Reducir el porcentaje de tinta usado
                     porcentajeTinta -= tintaGastada;
                     System.out.println("Impresión completa de " + nombreArchivo + ". Tinta disponible: " + porcentajeTinta + "%");
